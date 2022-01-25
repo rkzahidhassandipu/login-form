@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #dddddd;
+    text-align: center;
+    font-family: sans-serif;
+}
+.login{
+    width: 320px;
+    height: 500px;
+    padding: 60px 0px;
+    background: #dddddd;
+    box-shadow: 7px 7px 15px #ffffff,
+    0px 0px 10px #ffffff;
+    border-radius: 40px;
+}
+.logo{
+    background: #dddddd;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: -30px;
+    box-shadow: 0px 0px 20px 4px #ffffff,
+    0px 0px 20px 4px #ffffff;
+}
+.title{
+    font-size: 28px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+.sub-title{
+    font-size: 15px;
+    margin: 10px 0;
+}
+.login-form{
+    margin: 30px 0 0 0;
+    width: 100%;
+}
+.login-form .username input,
+.login-form .password input,
+.singin-btn{
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px 10px;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    background: #dddddd;
+    box-shadow: inset 0px 0px 9px 0px #ffffff;
+}
+.singin-btn{
+    box-shadow: 0px 0px 9px 3px #ffffff;
+    margin-top: 30px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
+.singin-btn:hover{
+    box-shadow: inset 0px 0px 9px 0px #ffffff;
+}
